@@ -11,3 +11,5 @@ add_executable(ex1 src/ex1/ex1.cc)
 
 file(COPY ${CMAKE_SOURCE_DIR}/src/ex1/plot_ex1.py
      DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+add_executable(ex2 src/ex2/ex2.cc)
