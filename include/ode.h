@@ -7,7 +7,7 @@
 #include <vector>
 
 typedef std::vector<double> state_vector;
-typedef std::vector<std::function<double(state_vector,double)>> ode_system;
+typedef std::vector<std::function<double(state_vector,double)>> ode_system; //defines the rhs of dxdt_i=f(x_i,t)
 
 class Ode{
 public:

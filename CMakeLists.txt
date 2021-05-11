@@ -13,3 +13,10 @@ file(COPY ${CMAKE_SOURCE_DIR}/src/ex1/plot_ex1.py
      DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 add_executable(ex2 src/ex2/ex2.cc)
+
+#find_package(GSL REQUIRED)
+
+add_executable(ex3 src/ex3/ex3.cc src/ex3/gsl.cc)
+
+#target_include_directories(ex3 PRIVATE ${PROJECT_SOURCE_DIR} ${GSL_INCLUDE_DIR})
+#target_link_libraries(ex3 ${GSL_LIBRARIES})
