@@ -17,3 +17,8 @@ make
 ./ex1 > ex1.txt
 python3 plot_ex1.py
 ```
+
+## Todo List
+
+- [x] Added *ex1* *ex2* *ex3* directories.
+- [ ] Plot scripts for *ex2* *ex3*. 

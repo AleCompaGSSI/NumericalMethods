@@ -78,6 +78,7 @@ int main(){
 		t += Dt;
 
 	}
+	std::cerr << "Writing on stdout .. ";
 	while (t<80) {
 		f = CrankNicolson(f, alpha, QDeltat);
 		t += Dt;
