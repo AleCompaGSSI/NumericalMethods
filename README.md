@@ -4,6 +4,8 @@ Repository for the HE-8 Numerical Methods in Astroparticle Physics course, based
 
 ## Example build
 
+Build with [cmake](https://cmake.org).
+
 ```
 mkdir build
 cd build
@@ -12,6 +14,8 @@ make
 ```
 
 ## Example usage
+
+The outputs of the executables are intended to be redirected to a file.
 
 ```
 ./ex1 > ex1.txt
